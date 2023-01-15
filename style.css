@@ -161,3 +161,66 @@ header {
 
 
 /* end team information part */
+
+
+
+/* features part */
+.features {
+    /* display: flex; */
+    margin-top: 8%;
+    /* margin-bottom: 8%; */
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.features-detailes {
+    width: 100%;
+    margin-right: 10%;
+
+}
+
+.features-image img {
+    width: 100%;
+    height: 100%
+}
+
+@media (min-width: 500px) {
+    .features {
+        display: flex;
+    }
+}
+
+.features-item {
+    box-shadow: #cd1b1b;
+    /* border: #c1bfbf; */
+    background-color: #fcf0f0;
+    margin-right: 25px;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 2%;
+    margin-left: 0%;
+}
+
+
+
+.button-ex {
+    background-color: rgb(244, 116, 69);
+    padding: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 5%;
+    text-align: center;
+    color: white;
+    margin-left: 55%;
+    /* margin-top: -55px; */
+}
+
+.button {
+    margin-top: -2.5%;
+}
+
+.button span {
+    font-size: larger;
+}
+
+/* End features part */
