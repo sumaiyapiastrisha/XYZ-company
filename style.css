@@ -32,7 +32,7 @@ body {
     float: right;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .header a {
         float: none;
         display: block;
@@ -148,7 +148,7 @@ header {
     color: white;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 600px) {
     .cards {
         grid-template-columns: repeat(2, 1fr);
 
@@ -184,7 +184,7 @@ header {
     height: 100%
 }
 
-@media (min-width: 500px) {
+@media (min-width: 600px) {
     .features {
         display: flex;
     }
@@ -224,3 +224,43 @@ header {
 }
 
 /* End features part */
+
+
+
+/* facts */
+
+.facts {
+
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 100%;
+}
+
+.about-facts {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+
+.fact-items {
+    height: 250px;
+    width: 250px;
+    margin-top: 5%;
+    border-color: #cd1b1b;
+    border-width: 5px;
+    border: 3px;
+}
+
+@media (min-width: 600px) {
+    /* .fact-items {
+        grid-template-columns: repeat(2, 1fr);
+
+    } */
+
+    .facts {
+        display: flex;
+    }
+}
+
+/* end facts */
